@@ -20,7 +20,7 @@ Quantity of energy produced by each renewable source, measured in thousand tonne
 'The tonne of oil equivalent (toe) is a unit of energy defined as the amount of energy released by burning one tonne of crude oil. It is approximately 42 gigajoules or 11.630 megawatt-hours.'
 The percentage share of each renewable source in the total primary energy supply.
 ## Methodology
-![Method diagram](https://github.com/esradem/portfolio/blob/main/Renewable_Energy_Resources_Country_Benefits/Images/Methodology-01.jpg?raw=true) <br/>
+![Method diagram](Images/Methodology-01.jpg?raw=true) <br/>
 ### Data Analysis:
 - Calculate the annual contribution of each renewable energy source to the TPES.
 * Analyze trends in renewable energy usage, identifying periods of significant growth or decline.
