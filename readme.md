@@ -120,7 +120,7 @@ GO
 + Clean the data and prepare for loading to Synapse for further analytics.
 ![Azure Data Factory Screen](Images/ADF_1.png?raw=true)
 + While uploading the data from Data Lake to Synapse true mapping is very important. Look how is the data type in Data lake csv file and how will be in the synapse data type.<br />
-![Azure Data Factory Mapping](https://github.com/esradem/portfolio/blob/main/Renewable_Energy_Resources_Country_Benefits/Images/ADF_2.png?raw=true)<br />
+![Azure Data Factory Mapping](Images/ADF_2.png?raw=true)<br />
  Here is json file of creating pipeline <br />
 ```
 {
@@ -301,12 +301,12 @@ ORDER BY total_renewable_energy DESC;
 
 + After creating those table you can export them and upload to Power BI and visualize it. 
 + In order dynamic visualization you can create a link service to Power BI directly from Azure Synapse Analytics.
-![configuring power bi](https://github.com/esradem/portfolio/blob/main/Renewable_Energy_Resources_Country_Benefits/Images/connecting_server.png?raw=true)
-![configuring power bi](https://github.com/esradem/portfolio/blob/main/Renewable_Energy_Resources_Country_Benefits/Images/selecting_table.png?raw=true)
+![configuring power bi](Images/connecting_server.png?raw=true)
+![configuring power bi](Images/selecting_table.png?raw=true)
 Inside the Power BI you need to connect to SQL database using your login information and crenditials. <br />
 Then you can choose which table you want to visualize> choose the columns. If you want to edit the specific columns or exclude it as I did in the renewable energy production over time analysing per country, you can do it by clicking the Transform data.<br />
 When you select all the column you want and you can even get query from Synapse by get data button. All of the visualization in your Dashboear in Power BI you can export it as a pdf.<br />
-![power bi export](https://github.com/esradem/portfolio/blob/main/Renewable_Energy_Resources_Country_Benefits/Images/analyticsof%20renewableenergy.jpg?raw=true)
+![power bi export](Images/analyticsof renewableenergy.jpg?raw=true)
 
 
 # End
