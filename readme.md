@@ -306,7 +306,7 @@ ORDER BY total_renewable_energy DESC;
 Inside the Power BI you need to connect to SQL database using your login information and crenditials. <br />
 Then you can choose which table you want to visualize> choose the columns. If you want to edit the specific columns or exclude it as I did in the renewable energy production over time analysing per country, you can do it by clicking the Transform data.<br />
 When you select all the column you want and you can even get query from Synapse by get data button. All of the visualization in your Dashboear in Power BI you can export it as a pdf.<br />
-![power bi export](Images/analyticsof renewableenergy.jpg?raw=true)
+![power bi export](Images/analyticsofrenewableenergy.jpg?raw=true)
 
 
 # End
